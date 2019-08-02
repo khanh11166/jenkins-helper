@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Jenkins Helper
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.1
 // @description  try to take over the world!
-// @author       You
-// @include      /^http.?://.*build.axonivy.io.*$/
+// @author       DK
+// @include             /^http.?://.*build.axonivy.io.*$/
 // @require             https://code.jquery.com/jquery-3.4.1.min.js
 // @require             https://unpkg.com/micromodal/dist/micromodal.min.js
 // @grant               GM_getResourceText
@@ -12,8 +12,6 @@
 // @grant               GM_setValue
 // @grant               GM_getValue
 // @grant               GM_xmlhttpRequest
-
-// @version             1.0
 // ==/UserScript==
 GM_addStyle ( `
 .centered {
