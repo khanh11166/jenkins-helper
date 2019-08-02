@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jenkins Helper
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  try to take over the world!
 // @author       DK
 // @include      /^http.?://.*build.axonivy.io.*$/
