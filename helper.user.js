@@ -1,19 +1,19 @@
 // ==UserScript==
-// @name         		Jenkins Helper
-// @namespace    		http://tampermonkey.net/
-// @version      		1.0.1
-// @description  		try to take over the world!
-// @author       		DK
-// @include             /^http.?://.*build.axonivy.io.*$/
-// @require             https://code.jquery.com/jquery-3.4.1.min.js
-// @require             https://unpkg.com/micromodal/dist/micromodal.min.js
-// @downloadURL         https://github.com/khanh11166/jenkins-helper/raw/master/helper.user.js
-// @updateURL           https://github.com/dieuph/finformatic/raw/master/finformatic.meta.js
-// @grant               GM_getResourceText
-// @grant               GM_addStyle
-// @grant               GM_setValue
-// @grant               GM_getValue
-// @grant               GM_xmlhttpRequest
+// @name         Jenkins Helper
+// @namespace    http://tampermonkey.net/
+// @version      1.0.1
+// @description  try to take over the world!
+// @author       DK
+// @include      /^http.?://.*build.axonivy.io.*$/
+// @require      https://code.jquery.com/jquery-3.4.1.min.js
+// @require      https://unpkg.com/micromodal/dist/micromodal.min.js
+// @downloadURL  https://github.com/khanh11166/jenkins-helper/raw/master/helper.user.js
+// @updateURL    https://github.com/khanh11166/jenkins-helper/raw/master/helper.meta.js
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
 GM_addStyle ( `
 .centered {
